@@ -1,0 +1,23 @@
+DELL@DESKTOP-IEU7NEL MINGW64 ~/Documents/DEMD/DEMD-Mid-D21035 (development)
+$ git status
+On branch development
+Your branch is up to date with 'origin/development'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new_feature.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-IEU7NEL MINGW64 ~/Documents/DEMD/DEMD-Mid-D21035 (development)
+$ git stash
+No local changes to save
+
+DELL@DESKTOP-IEU7NEL MINGW64 ~/Documents/DEMD/DEMD-Mid-D21035 (development)
+$ git add .
+warning: LF will be replaced by CRLF in new_feature.txt.
+The file will have its original line endings in your working directory
+
+DELL@DESKTOP-IEU7NEL MINGW64 ~/Documents/DEMD/DEMD-Mid-D21035 (development)
+$ git stash
+Saved working directory and index state WIP on development: b4c8e72 Q3.2 with port 8080
